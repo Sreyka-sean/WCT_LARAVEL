@@ -84,4 +84,6 @@ class FeatureController extends Controller
         // Redirect to the index page with a success message
         return redirect()->route('Feature_views.index')->with('success', 'Feature deleted successfully!');
     }
+
+
 }
